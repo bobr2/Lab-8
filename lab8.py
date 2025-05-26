@@ -4,7 +4,7 @@ import time
 
 
 def image_processing():
-    img = cv2.imread('tanki.jpg')
+    img = cv2.imread('images/variant-7.jpg')
     h, w = img.shape[:2]
 
     hor_im = cv2.flip(img, 1)
